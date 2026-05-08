@@ -33,10 +33,7 @@ Schematic description of the overall setup:
 
 ![Setup](docs/source/images/dbic-flow.png)
 
-**Note:** for your own setup, [dcm2niix](https://github.com/rordenlab/dcm2niix)
-[author](https://github.com/neurolabusc)
-[recommends](https://github.com/neurolabusc/dcm_qa_agfa) to avoid dcm4che and
-choose another PACS.
+For your own setup, the lead developer of dcm2niix [recommends](https://github.com/neurolabusc/dcm_qa_agfa) avoiding dcm4che in favor of other PACS solutions. A robust, free alternative is [DICOMpress](https://github.com/neurolabusc/DICOMpress) , a script designed to export data from your scanner to a server running [storescp](https://support.dcmtk.org/docs/storescp.html). It also includes an optional mirror feature to ensure data redundancy.
 
 ![Setup](docs/source/images/dbic-conversions.png)
 
